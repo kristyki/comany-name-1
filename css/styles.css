@@ -641,7 +641,9 @@ main {
     display: none;
   }
 
-
+  .main-nav{
+    min-height: 60px;
+  }
 
 
   .main-nav ul {
@@ -651,6 +653,10 @@ main {
   .main-nav li {
     float: none;
   }
+
+a.nav-toggle {
+  display: block;
+}
 
   .section01 .col-1,
   .section01 .col-2,
